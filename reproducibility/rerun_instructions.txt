@@ -1,0 +1,11 @@
+To check this release reproduces:
+
+  python3 -c "import ppact.reproducibility as R; R.verify()"
+
+A certified run uses the published seed. Any other seed is an
+EXPLORATORY run: useful for finding new defects, and not a
+reproduction of this release.
+
+This package can establish grade R2 at most - same machine and
+clean environment. R3 upward needs a second machine, and R5
+needs someone who did not write it.

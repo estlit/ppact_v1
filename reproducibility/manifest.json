@@ -1,0 +1,19 @@
+{
+  "certified": true,
+  "coefficient_digest": "75918376d294ca46736adb1c34d097d584b9403d978dd7ffd8b6e5168ec10928",
+  "coefficients": 25,
+  "coefficients_agreeing": 25,
+  "coefficients_in_code": 14,
+  "environment": {
+    "certified_seed": 20260802,
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "python": "3.12.3",
+    "release": "6.18.5-fc-v20",
+    "system": "Linux"
+  },
+  "seed": 20260802,
+  "source_digest": "499a9f60f34c8ff2c16467a6ce523803aaef526b2ffdd912d3bb97f783707863",
+  "source_files": 119,
+  "version": "4.19.0"
+}

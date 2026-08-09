@@ -1,0 +1,26 @@
+name,declared,live,unit,source,confidence,editable,in_code,agrees
+BOUND_STRENGTH_THRESHOLDS,4.0,,compute/memory ratio at the strong boundary,ENGINEERING_ESTIMATE,LOW,True,False,True
+DUAL_DISPATCH_US,60.0,60.0,microseconds per job,ENGINEERING_ESTIMATE,MEDIUM,True,True,True
+DUAL_MEMORY_CONTENTION,0.12,0.12,fraction of bandwidth,ENGINEERING_ESTIMATE,LOW,True,True,True
+HBM stack cost,112.08,,USD per 24GB stack,ENGINEERING_ESTIMATE,LOW,True,False,True
+HBM4 bandwidth_efficiency,0.88,,fraction,ENGINEERING_ESTIMATE,LOW,True,False,True
+HOST_BALANCE_BAND,0.25,0.25,fraction either side of equal,ENGINEERING_ESTIMATE,LOW,True,True,True
+HOST_MEMORY_OVERLAP,0.7,0.7,fraction hidden,ENGINEERING_ESTIMATE,LOW,True,True,True
+ISP_AREA_MM2,3.2,3.2,mm2 at the reference node,ENGINEERING_ESTIMATE,MEDIUM,True,True,True
+ISP_ENERGY_PJ_PER_PIXEL,55.0,55.0,pJ per pixel,ENGINEERING_ESTIMATE,LOW,True,True,True
+ISP_PIXELS_PER_SECOND,2000000000.0,2000000000.0,pixels per second,DATASHEET,MEDIUM,True,True,True
+ISP_STATIC_POWER_W,0.3,0.3,watts,ENGINEERING_ESTIMATE,MEDIUM,True,True,True
+LLM_SINGLE_STREAM_SERVING_EFFICIENCY,0.45,0.45,"fraction of the ceiling, SINGLE-STREAM DECODE ONLY",ENGINEERING_ESTIMATE,LOW,True,True,True
+NPU_PREPROCESS_AREA_UPLIFT,0.08,0.08,fraction of die area,ENGINEERING_ESTIMATE,LOW,True,True,True
+NPU_PREPROCESS_DISPATCH_US,90.0,90.0,microseconds per call,ENGINEERING_ESTIMATE,MEDIUM,True,True,True
+NPU_PREPROCESS_POWER_UPLIFT,0.06,0.06,fraction of static power,ENGINEERING_ESTIMATE,LOW,True,True,True
+PARALLEL_SPLIT_EFFICIENCY,0.85,0.85,fraction,ENGINEERING_ESTIMATE,MEDIUM,True,True,True
+SYSTOLIC_PERIPHERY,1.15,1.15,multiplier on die area,ENGINEERING_ESTIMATE,MEDIUM,False,True,True
+background_power_w,5.0,,watts per HBM3E stack,ENGINEERING_ESTIMATE,LOW,True,False,True
+bandwidth_efficiency,0.72,,fraction (LPDDR5),LITERATURE,MEDIUM,True,False,True
+efficient_work_ms,3.0,,ms at peak rate (edge GPU),ENGINEERING_ESTIMATE,LOW,True,False,True
+framework_overhead_ms,1.5,,ms per inference (edge GPU),ENGINEERING_ESTIMATE,LOW,True,False,True
+module_idle_power_w,1.4,,watts (128x128 NPU module),ENGINEERING_ESTIMATE,LOW,True,False,True
+platform_premium,1.3,,multiplier (datacenter GPU),ENGINEERING_ESTIMATE,LOW,True,False,True
+quantisation loss table,1.0,,"percentage points (CNN, PTQ)",LITERATURE,MEDIUM,True,False,True
+weight_read_factor,1.05,,reads per token,ENGINEERING_ESTIMATE,MEDIUM,True,False,True

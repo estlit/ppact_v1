@@ -1,0 +1,198 @@
+{
+  "product": "AI System PPACT Studio",
+  "release": "v1.0-RC4.3",
+  "product_version": "1.0",
+  "engine_version": "4.19.0",
+  "built": "2026-08-09T11:04:54Z",
+  "python": "3.12.3",
+  "platform": "Linux/x86_64",
+  "documentation": {
+    "files": [
+      "ABOUT.md",
+      "DEFERRED.md",
+      "EDUCATIONAL_VALIDATION.md",
+      "EXERCISES.md",
+      "HELP.md",
+      "METHODOLOGY.md",
+      "README.md",
+      "STUDENT_GUIDE.md",
+      "docs_manifest.json"
+    ],
+    "file_digests": {
+      "ABOUT.md": "8d292e041a93f2afc35fb05fab81936cc8184e9c4e5090fc47441521834822f8",
+      "DEFERRED.md": "7db9b238e7d80bb62956c513c496b0b7978ffcc2d5e99136158769a32cbe17f4",
+      "EDUCATIONAL_VALIDATION.md": "50e4a88d535818bb08f4b9adaa13a1b1f7d771b8500c49aef0caedfe4f5fc916",
+      "EXERCISES.md": "781cd9ed77f3e5fbd66ab61ee5904337f5de5e1c94919c67d3f66785e376a2db",
+      "HELP.md": "6f9378d024af065dbf4744dbd2d84aa7ecaf15acbccd06e68c11ea28b7a6e169",
+      "METHODOLOGY.md": "61d187963dd721ec861a235354f8cba38550774dc82f8fe743ee5b7e46909a9f",
+      "README.md": "ba6ceb3dd8e9fa923bda87b23efb74c109dcd82b8d5638189dfff5a647502ffa",
+      "STUDENT_GUIDE.md": "78c23d6e86a27618e9e09799ca898aa44782ff222b2bfde7cea1f85b060a775b",
+      "docs_manifest.json": "d28476f37ba8aabecd7ff2222b385802c5892b203519445a6f77d695c0f0628d"
+    },
+    "digest": "992885de6b4c1d683ed1e7c7e1994dabf5249b83d81b4a6919b0792fcfc7d3d4"
+  },
+  "evidence": {
+    "source_digest": "ed3d5760ce520aa1cba749975ff98b393b8a57781d84520b71f99c56187759cd",
+    "coefficient_digest": "e4490f479158b257c819c9309e662a4563fd5df27467358dd91fe186b82fabbd",
+    "package_hash": "e9ba220874b93a25088ca63c777667aed4056f813b1fe94cea3979d6413c97b6"
+  },
+  "validation_categories": [
+    "Independent arithmetic checks",
+    "Golden scenarios",
+    "Regression snapshots",
+    "Corner cases",
+    "Differential checks",
+    "Mutation testing",
+    "User-answer availability checks",
+    "Answer-quality checks",
+    "Consistency checks",
+    "Logical consistency cases",
+    "Question clarity checks",
+    "Output-stability checks",
+    "Reproducibility checks",
+    "Language and terminology checks",
+    "Documentation audit"
+  ],
+  "not_established": [
+    "Measured hardware accuracy",
+    "Educational effectiveness",
+    "Independent external validation",
+    "Commercial product equivalence"
+  ],
+  "note": "Fields recording a verification result are present only when that verification ran during this build. An absent field means it was not run, never that it passed.",
+  "verification_record": {
+    "engine_version": "4.19.0",
+    "status": "FINAL",
+    "in_progress": false,
+    "stale": false,
+    "stale_reason": "",
+    "results": {
+      "governance": {
+        "status": "PASS",
+        "summary": "",
+        "seconds": 0.5
+      },
+      "model": {
+        "status": "PASS",
+        "summary": "5128 / 5128 checks passed",
+        "seconds": 8.0
+      },
+      "freeze": {
+        "status": "PASS",
+        "summary": "6218 / 6218 checks",
+        "seconds": 0.8
+      },
+      "documentation": {
+        "status": "PASS",
+        "summary": "300 / 300 checks",
+        "seconds": 0.6
+      },
+      "user and answer": {
+        "status": "PASS",
+        "summary": "666 / 666 checks across 10 scenarios",
+        "seconds": 0.7
+      },
+      "logical consistency": {
+        "status": "PASS",
+        "summary": "21 / 21 logical consistency cases passed",
+        "seconds": 0.6
+      },
+      "review contract": {
+        "status": "PASS",
+        "summary": "",
+        "seconds": 6.1
+      },
+      "menu paths": {
+        "status": "PASS",
+        "summary": "115 / 115 checks",
+        "seconds": 6.7
+      },
+      "workflow": {
+        "status": "PASS",
+        "summary": "388 / 388 checks",
+        "seconds": 40.2
+      },
+      "streamlit": {
+        "status": "PASS",
+        "summary": "3419 / 3419 checks",
+        "seconds": 50.7
+      },
+      "question clarity": {
+        "status": "PASS",
+        "summary": "972 / 972 checks",
+        "seconds": 0.7
+      },
+      "language": {
+        "status": "PASS",
+        "summary": "378 / 378 checks",
+        "seconds": 1.2
+      },
+      "library validation": {
+        "status": "PASS",
+        "summary": "91 / 91 checks",
+        "seconds": 0.5
+      },
+      "independent arithmetic": {
+        "status": "PASS",
+        "summary": "156 / 156 independent checks passed",
+        "seconds": 0.6
+      },
+      "dual accelerator": {
+        "status": "PASS",
+        "summary": "212 / 212 checks passed",
+        "seconds": 0.6
+      },
+      "corner cases": {
+        "status": "PASS",
+        "summary": "93 / 93 checks passed",
+        "seconds": 0.7
+      },
+      "scenarios": {
+        "status": "PASS",
+        "summary": "enforced checks     31/31",
+        "seconds": 0.6
+      },
+      "memory": {
+        "status": "PASS",
+        "summary": "128 / 128 checks passed",
+        "seconds": 0.6
+      },
+      "differential": {
+        "status": "PASS",
+        "summary": "58 / 58 checks passed",
+        "seconds": 0.6
+      },
+      "holdout": {
+        "status": "PASS",
+        "summary": "",
+        "seconds": 0.6
+      },
+      "quick start example": {
+        "status": "PASS"
+      },
+      "mutation": {
+        "status": "PASS",
+        "child_ending": "not run - existing evidence matches this build",
+        "evidence_verdict": "PASS",
+        "mutation_evidence_path": "mutation_checkpoint.json",
+        "run_id": "c4ee02ece35d4639",
+        "registered": 162,
+        "executed": 162,
+        "survived": 0,
+        "critical": 153,
+        "chain_digest": "c3de3de9ee0d6db1",
+        "summary": "PASS - 162 mutants, 0 survived"
+      },
+      "governance (full)": {
+        "status": "FAIL",
+        "summary": "",
+        "seconds": 0.6
+      }
+    },
+    "ran_at": "2026-08-09T11:01:36Z"
+  },
+  "verified": {
+    "documentation_audit": "PASS",
+    "reproducibility": "R2"
+  }
+}

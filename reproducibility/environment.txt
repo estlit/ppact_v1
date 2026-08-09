@@ -1,0 +1,6 @@
+python: 3.12.3
+implementation: CPython
+system: Linux
+release: 6.18.5-fc-v20
+machine: x86_64
+certified_seed: 20260802

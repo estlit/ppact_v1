@@ -1,0 +1,272 @@
+[
+  {
+    "estimated": {
+      "Logic die cost (USD)": 0.9507025777777778,
+      "System cost (USD)": 36.93145724668654
+    },
+    "exact": {
+      "bound_by": "compute",
+      "bound_strength": "weakly compute-bound",
+      "case": "industrial_vision/npu_32x32/LPDDR5x4/isp_assisted",
+      "failed_gates": "",
+      "host_state": "compute-limited",
+      "status": "OK",
+      "verdict": "PASS"
+    },
+    "tight": {
+      "Compute time (ms)": 2.5189112103174605,
+      "DRAM traffic (MB)": 115.2638888888889,
+      "Delivered throughput (inf/s)": 60,
+      "Deployment accuracy (%)": 98.3,
+      "Energy per inference (mJ)": 18.859076133184825,
+      "Latency (ms)": 4.661458210783476,
+      "Logic silicon (mm2)": 15.217455999999999,
+      "Memory time (ms)": 0.781688501587383,
+      "Pipeline capacity (inf/s)": 99.73064746732025,
+      "System power (W)": 4.04574604778342
+    }
+  },
+  {
+    "estimated": {
+      "Logic die cost (USD)": 0.4840359111111111,
+      "System cost (USD)": 18.349968801121047
+    },
+    "exact": {
+      "bound_by": "compute",
+      "bound_strength": "weakly compute-bound",
+      "case": "industrial_vision/npu_32x32/LPDDR5x2/cpu_only",
+      "failed_gates": "latency,throughput",
+      "host_state": "compute-limited",
+      "status": "OK",
+      "verdict": "FAIL"
+    },
+    "tight": {
+      "Compute time (ms)": 2.5189112103174605,
+      "DRAM traffic (MB)": 115.2638888888889,
+      "Delivered throughput (inf/s)": 31.85797431034876,
+      "Deployment accuracy (%)": 98.3,
+      "Energy per inference (mJ)": 55.81668721809503,
+      "Latency (ms)": 34.32540976443935,
+      "Logic silicon (mm2)": 6.017456,
+      "Memory time (ms)": 1.6687330725911997,
+      "Pipeline capacity (inf/s)": 31.85797431034876,
+      "System power (W)": 1.6261040320025648
+    }
+  },
+  {
+    "estimated": {
+      "Logic die cost (USD)": 2.20315125468618,
+      "System cost (USD)": 38.1514723192589
+    },
+    "exact": {
+      "bound_by": "memory",
+      "bound_strength": "strongly memory-bound",
+      "case": "mobile_ai/npu_64x64/LPDDR5x4/isp_and_npu",
+      "failed_gates": "board",
+      "host_state": "compute-limited",
+      "status": "OK",
+      "verdict": "FAIL"
+    },
+    "tight": {
+      "Compute time (ms)": 0.4166666666666667,
+      "DRAM traffic (MB)": 636.288,
+      "Delivered throughput (inf/s)": 20,
+      "Deployment accuracy (%)": 93.75,
+      "Energy per inference (mJ)": 40.27914887037037,
+      "Latency (ms)": 9.843000000000002,
+      "Logic silicon (mm2)": 5.587761984,
+      "Memory time (ms)": 4.315104166666667,
+      "Pipeline capacity (inf/s)": 231.74411587205793,
+      "System power (W)": 4.092161827732436
+    }
+  },
+  {
+    "estimated": {
+      "Logic die cost (USD)": 2.20315125468618,
+      "System cost (USD)": 114.50113573978818
+    },
+    "exact": {
+      "bound_by": "memory",
+      "bound_strength": "weakly memory-bound",
+      "case": "mobile_ai/npu_64x64/HBM3Ex1/isp_and_npu",
+      "failed_gates": "cost,memory_cooling,power,thermal",
+      "host_state": "compute-limited",
+      "status": "OK",
+      "verdict": "FAIL"
+    },
+    "tight": {
+      "Compute time (ms)": 0.4166666666666667,
+      "DRAM traffic (MB)": 636.288,
+      "Delivered throughput (inf/s)": 20,
+      "Deployment accuracy (%)": 93.75,
+      "Energy per inference (mJ)": 33.42419802156863,
+      "Latency (ms)": 2.2845168845315906,
+      "Logic silicon (mm2)": 5.587761984,
+      "Memory time (ms)": 0.9137867647058824,
+      "Pipeline capacity (inf/s)": 1094.3472138402735,
+      "System power (W)": 14.630751143877761
+    }
+  },
+  {
+    "estimated": {
+      "Logic die cost (USD)": 0.7658637934881458,
+      "System cost (USD)": 18.840776275334818
+    },
+    "exact": {
+      "bound_by": "compute",
+      "bound_strength": "strongly compute-bound",
+      "case": "drone/npu_24x24/LPDDR5x2/isp_and_npu",
+      "failed_gates": "",
+      "host_state": "compute-limited",
+      "status": "OK",
+      "verdict": "PASS"
+    },
+    "tight": {
+      "Compute time (ms)": 21.219135802469136,
+      "DRAM traffic (MB)": 222.30555555555554,
+      "Delivered throughput (inf/s)": 20,
+      "Deployment accuracy (%)": 94.15,
+      "Energy per inference (mJ)": 34.05537760629936,
+      "Latency (ms)": 22.725229023781267,
+      "Logic silicon (mm2)": 11.361422784,
+      "Memory time (ms)": 3.0155545217578537,
+      "Pipeline capacity (inf/s)": 46.92170447436106,
+      "System power (W)": 1.4985713706410364
+    }
+  },
+  {
+    "estimated": {
+      "Logic die cost (USD)": 3.727242870117933,
+      "System cost (USD)": 12.869188906959636
+    },
+    "exact": {
+      "bound_by": "memory",
+      "bound_strength": "weakly memory-bound",
+      "case": "robot/npu_128x128/LPDDR5x1/isp_and_npu",
+      "failed_gates": "",
+      "host_state": "compute-limited",
+      "status": "OK",
+      "verdict": "PASS"
+    },
+    "tight": {
+      "Compute time (ms)": 1.7311789772727273,
+      "DRAM traffic (MB)": 133.63636363636365,
+      "Delivered throughput (inf/s)": 15,
+      "Deployment accuracy (%)": 96.55,
+      "Energy per inference (mJ)": 17.487096328170207,
+      "Latency (ms)": 4.2563598787573005,
+      "Logic silicon (mm2)": 28.589537856000007,
+      "Memory time (ms)": 3.62674123163796,
+      "Pipeline capacity (inf/s)": 270.1431400588518,
+      "System power (W)": 4.10846282417167
+    }
+  },
+  {
+    "estimated": {
+      "Logic die cost (USD)": 11730.524444444445,
+      "System cost (USD)": 12403.01361964774
+    },
+    "exact": {
+      "bound_by": "memory",
+      "bound_strength": "strongly memory-bound",
+      "case": "llm_service/datacenter_gpu/HBM3Ex6/None",
+      "failed_gates": "latency,throughput",
+      "host_state": "compute-limited",
+      "status": "OK",
+      "verdict": "FAIL"
+    },
+    "tight": {
+      "Compute time (ms)": 2.1818181818181817,
+      "DRAM traffic (MB)": 74335.36,
+      "Delivered throughput (inf/s)": 35,
+      "Deployment accuracy (%)": 95.9,
+      "Energy per inference (mJ)": 5709.6675136726435,
+      "Latency (ms)": 41.304767493297824,
+      "Logic silicon (mm2)": 351.888,
+      "Memory time (ms)": 17.792432598039213,
+      "Pipeline capacity (inf/s)": 56.20366942461839,
+      "System power (W)": 138.23265110012065
+    }
+  },
+  {
+    "estimated": {
+      "Logic die cost (USD)": 11730.524444444445,
+      "System cost (USD)": 11801.988176004485
+    },
+    "exact": {
+      "bound_by": "not evaluated",
+      "bound_strength": "not evaluated",
+      "case": "llm_service/datacenter_gpu/LPDDR5x8/None",
+      "failed_gates": "capacity,latency,throughput",
+      "host_state": "compute-limited",
+      "status": "INFEASIBLE: MODEL_DOES_NOT_FIT_IN_MEMORY",
+      "verdict": "FAIL"
+    },
+    "tight": {
+      "Compute time (ms)": NaN,
+      "DRAM traffic (MB)": 74335.36,
+      "Delivered throughput (inf/s)": NaN,
+      "Deployment accuracy (%)": 95.9,
+      "Energy per inference (mJ)": NaN,
+      "Latency (ms)": NaN,
+      "Logic silicon (mm2)": 351.888,
+      "Memory time (ms)": NaN,
+      "Pipeline capacity (inf/s)": NaN,
+      "System power (W)": 58.497806486595394
+    }
+  },
+  {
+    "estimated": {
+      "Logic die cost (USD)": 0.3578008071111111,
+      "System cost (USD)": 9.539656141004969
+    },
+    "exact": {
+      "bound_by": "compute",
+      "bound_strength": "strongly compute-bound",
+      "case": "smart_camera/npu_16x16/LPDDR5x1/isp_and_npu",
+      "failed_gates": "",
+      "host_state": "compute-limited",
+      "status": "OK",
+      "verdict": "PASS"
+    },
+    "tight": {
+      "Compute time (ms)": 7.233796296296295,
+      "DRAM traffic (MB)": 61.354166666666664,
+      "Delivered throughput (inf/s)": 15,
+      "Deployment accuracy (%)": 94.1,
+      "Energy per inference (mJ)": 9.029178337742017,
+      "Latency (ms)": 8.46294777028777,
+      "Logic silicon (mm2)": 7.74471312,
+      "Memory time (ms)": 1.664462746260499,
+      "Pipeline capacity (inf/s)": 136.19253589240793,
+      "System power (W)": 1.0669070142961539
+    }
+  },
+  {
+    "estimated": {
+      "Logic die cost (USD)": 19.038936170212764,
+      "System cost (USD)": 54.9505466310837
+    },
+    "exact": {
+      "bound_by": "compute",
+      "bound_strength": "balanced",
+      "case": "medical/mobile_gpu/LPDDR5x4/isp_assisted",
+      "failed_gates": "",
+      "host_state": "compute-limited",
+      "status": "OK",
+      "verdict": "PASS"
+    },
+    "tight": {
+      "Compute time (ms)": 6.320987654320987,
+      "DRAM traffic (MB)": 782.8124999999999,
+      "Delivered throughput (inf/s)": 30,
+      "Deployment accuracy (%)": 99.4,
+      "Energy per inference (mJ)": 46.11937908631539,
+      "Latency (ms)": 10.411991038918417,
+      "Logic silicon (mm2)": 13.844599999999998,
+      "Memory time (ms)": 5.308885405654638,
+      "Pipeline capacity (inf/s)": 158.203125,
+      "System power (W)": 4.429448595751596
+    }
+  }
+]
