@@ -1,0 +1,171 @@
+{
+  "phase": "T1",
+  "generated_at": "2026-08-05T02:32:12Z",
+  "code_changed_during_T1": false,
+  "declaration": "Phase T1 was an inventory. No test, engine or document file was modified while producing it. This record exists so that anything changed after it can be identified as a change.",
+  "engine_version": "4.17.3",
+  "engine_source_digest": "c6c99dfc7356e434457f29b33e012e4a0014ad410880bd737647f6f15dcb9ae4",
+  "verification_runner_digest": "ef1e49d043b9525665caa76855f672d1ec267d99ff2c1150653889dfd24ee9d1",
+  "existing_record": {
+    "engine_version": "4.17.3",
+    "ran_at": "2026-08-05T01:15:01Z",
+    "reported_suites": [
+      "corner cases",
+      "differential",
+      "documentation",
+      "dual accelerator",
+      "freeze",
+      "holdout",
+      "independent arithmetic",
+      "language",
+      "library validation",
+      "logical consistency",
+      "memory",
+      "model",
+      "mutation",
+      "question clarity",
+      "quick start example",
+      "review contract",
+      "scenarios",
+      "user and answer"
+    ]
+  },
+  "discovered_suites": [
+    "tests_corner.py",
+    "tests_differential.py",
+    "tests_docs.py",
+    "tests_dual.py",
+    "tests_freeze.py",
+    "tests_holdout.py",
+    "tests_independent.py",
+    "tests_language.py",
+    "tests_library_validation.py",
+    "tests_logical_consistency.py",
+    "tests_memory.py",
+    "tests_menu_paths.py",
+    "tests_model.py",
+    "tests_mutation.py",
+    "tests_questions.py",
+    "tests_review_contract.py",
+    "tests_scenarios.py",
+    "tests_user_validation.py"
+  ],
+  "registered_suites": [
+    {
+      "suite_id": "model",
+      "entry_command": "tests_model.py"
+    },
+    {
+      "suite_id": "freeze",
+      "entry_command": "tests_freeze.py"
+    },
+    {
+      "suite_id": "documentation",
+      "entry_command": "tests_docs.py"
+    },
+    {
+      "suite_id": "user and answer",
+      "entry_command": "tests_user_validation.py"
+    },
+    {
+      "suite_id": "logical consistency",
+      "entry_command": "tests_logical_consistency.py"
+    },
+    {
+      "suite_id": "review contract",
+      "entry_command": "tests_review_contract.py --enforce"
+    },
+    {
+      "suite_id": "menu paths",
+      "entry_command": "tests_menu_paths.py"
+    },
+    {
+      "suite_id": "question clarity",
+      "entry_command": "tests_questions.py"
+    },
+    {
+      "suite_id": "language",
+      "entry_command": "tests_language.py"
+    },
+    {
+      "suite_id": "library validation",
+      "entry_command": "tests_library_validation.py"
+    },
+    {
+      "suite_id": "independent arithmetic",
+      "entry_command": "tests_independent.py"
+    },
+    {
+      "suite_id": "dual accelerator",
+      "entry_command": "tests_dual.py"
+    },
+    {
+      "suite_id": "corner cases",
+      "entry_command": "tests_corner.py"
+    },
+    {
+      "suite_id": "scenarios",
+      "entry_command": "tests_scenarios.py"
+    },
+    {
+      "suite_id": "memory",
+      "entry_command": "tests_memory.py"
+    },
+    {
+      "suite_id": "differential",
+      "entry_command": "tests_differential.py"
+    },
+    {
+      "suite_id": "holdout",
+      "entry_command": "tests_holdout.py"
+    },
+    {
+      "suite_id": "mutation",
+      "entry_command": "tests_mutation.py"
+    }
+  ],
+  "set_differences": {
+    "registered_but_not_reported": [
+      "menu paths"
+    ],
+    "reported_but_not_registered": [
+      "quick start example"
+    ],
+    "discovered_but_not_registered": [],
+    "registered_but_not_discovered": []
+  },
+  "suite_digests": {
+    "tests_corner.py": "c3d85f49f948719dd27aa291e20803b786f6b95e615c8c84d928a4d7f6f5c738",
+    "tests_differential.py": "0775dd7c4cbb0880386755719d6982135dd80593c84ff1c87d4c40938a650db5",
+    "tests_docs.py": "ab135e7e5094e1fb91490cae63165ea935567bf061fab9ebea811c4e5782220d",
+    "tests_dual.py": "353e9e7f3b55a1584bf36345ae2b40bd0b066bf55307107511ed0773c4b156b3",
+    "tests_freeze.py": "5f91d72bf00a196162006e486163a3bb0e2e7d5694a43715f498468eac2d640c",
+    "tests_holdout.py": "d6d891cbaca57141f626e654f92b87f6b40ebb763076b623acb1f4aa68c7f4ca",
+    "tests_independent.py": "79dd9562b4f9ce65f3347966f685f6ee302313ab9e3289a0e24be823544b280f",
+    "tests_language.py": "54ccb7072c2c9511c491d583e07641bab19b3740842f29a60e85f93d862240b3",
+    "tests_library_validation.py": "ebb2cb38c9d3304cdf04c6f113b9f8f8ce0496317ea4e5fff2e3dab4f130c1f4",
+    "tests_logical_consistency.py": "30d269428da561428793a095d5b4661c45e392a0c9ba00ca2d493ed994e9b3df",
+    "tests_memory.py": "bf6f68852102a8d2f5203134f9b027d7c20aa67692aee879856d0acd8fe55449",
+    "tests_menu_paths.py": "3c95019515a457ea60303ae18463015481a239232d5572310ef6eb6339465cbf",
+    "tests_model.py": "99a82bafd0dbf3277832ec55b8bedb2316bb7e11dbd49774f66416379558b304",
+    "tests_mutation.py": "caea3e0f8a1a28841ab834f1d1d1d395d0a5106a4b4587e0bc8318a27017bdf4",
+    "tests_questions.py": "deb6b246cd4d6889fd42ca5503738d36cf4559c508404d83054011533c2510c4",
+    "tests_review_contract.py": "b89a94c3540595ac754cc5c9b80cfaa5c1ad065f97a0313ace426787d7422b69",
+    "tests_scenarios.py": "f2d55e3c2843ff713227986c236a88700bcab3c58d02cbcbe66cfa5b7fd1c9f0",
+    "tests_user_validation.py": "aced70c66715b7633b82136e9addc7ce677dc42e8d59844ceb3b6c28babc8081"
+  },
+  "findings": [
+    "Nothing enforces discovered = registered = executed = reported.",
+    "The verification record is keyed on engine version only, so a change to the suite set leaves it looking current.",
+    "Twelve suites carry no positive control, so their discriminating power is NOT ESTABLISHED - which is not the same as invalid.",
+    "Ten suites declare no limits, so what their pass counts do NOT establish is unstated.",
+    "No suite declares the engine or contract version it was written against.",
+    "tests_library_validation performs static checks only and never calls the engine."
+  ],
+  "verdict": {
+    "engine_correctness_evidence": "previously observed",
+    "test_governance_integrity": "NOT ESTABLISHED",
+    "current_release_evidence": "STALE - suite manifest mismatch",
+    "rc3_final_status": "NOT PERMITTED"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "framework_version": "VF-2.10",
+  "previous_version": "VF-2.9",
+  "frozen_at": "2026-08-09T10:59:34Z",
+  "suite_manifest_digest": "aa8d5c1ba4ea1f461788d16f4541b2fedb4de488db407e5c61182a87e94f2945",
+  "test_registry_version": "1.0",
+  "files": {
+    "verify_release.py": "d3b5007c735160d620a0156cded59c2c3ae1a7ae57ce3e545947b98e4290e43f",
+    "tests_governance.py": "ff554139c65b6d447c9948b4a35b66026423a7b5ed451bdb03496389f02e49cf",
+    "ppact/test_registry.py": "8f6897ea61ce0ad9593037a65a651f2cebe8e563d974d18d59d5be530dff512c",
+    "ppact/mutation_checkpoint.py": "93f4c27ccfaf1f557d67523a873a60152b1d93fae8bdeaa576bd1dbc1e5cfb08",
+    "tests_mutation.py": "e64503134b8984e52a12ccdf7a8c85d2ec29e3ec292204f8923ba8606c23fd76",
+    "check_release.py": "9a9ce120dfae0d8778429022be0aaed2e613eab3da0596ce57168fb55c363af3",
+    "certify.py": "5216aafcb52c465ecf7fc7d036b6a087d0aa38916919d05f35bc8a3149979965"
+  },
+  "combined_digest": "fa50fdcb67920b45a36f86fa82e8742412f747a59510233727caada4ef714289",
+  "reason_for_version_change": "The relative spider anchored its legend to the upper right of the polar axes. Demonstration labels run to about fourteen characters and fitted; a workflow comparison names the decision separating two designs and reaches forty-eight, and the second legend row landed on the Performance label. Found on a deployed screen: the sweep written when the labels grew measured the fifteen demonstrations and called itself exhaustive, and the labels that overlap were the ones it did not visit. ST-26 measures the drawn extents of both sources and requires four pixels of clearance - a tenth of a pixel apart reads as overlap. Layout only: engine metrics and anchor scores unchanged."
+}

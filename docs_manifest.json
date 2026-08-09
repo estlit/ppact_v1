@@ -1,0 +1,175 @@
+{
+  "_note": "A machine-readable registry of what the documentation is allowed to claim. The audit compares THIS against the code registries rather than scanning prose with regular expressions, which is fragile in both directions: it misses a claim phrased unusually and it fails on a sentence that merely mentions a word.",
+  "product_version": "1.0",
+  "engine_version": "4.19.0",
+  "documents": {
+    "README.md": [
+      "What PPACT Studio Is",
+      "Quick Start",
+      "Main Modes",
+      "Typical Workflow",
+      "How to Read the Results",
+      "Engineering Estimates and Boundaries",
+      "Documentation",
+      "Copyright"
+    ],
+    "ABOUT.md": [
+      "Purpose",
+      "Method",
+      "Educational and research use",
+      "Continuous library refinement",
+      "Vendor-neutral architectural classes",
+      "Commercial-product boundary",
+      "Interpretation of estimates"
+    ],
+    "HELP.md": [
+      "Modes",
+      "Metric definitions",
+      "Latency versus throughput",
+      "Energy versus average power",
+      "READY and NOT READY",
+      "Reason Breakdown",
+      "Measured Bar Charts",
+      "Architecture Balance",
+      "Clipping markers",
+      "Host Connection",
+      "Invalid input"
+    ],
+    "METHODOLOGY.md": [
+      "Analytical model structure",
+      "Metric boundary contracts",
+      "Input assumptions",
+      "Estimated industrial classes",
+      "Published, estimated and unknown",
+      "Latency and throughput",
+      "Power, energy, area, cost and thermal",
+      "Architecture Balance normalization",
+      "Axis ranges and clipping",
+      "Sensitivity analysis",
+      "Validation layers",
+      "Reproducibility",
+      "Assumptions worth challenging",
+      "Reserved, not active",
+      "Known limitations",
+      "Not established"
+    ],
+    "DEFERRED.md": [
+      "Structural",
+      "Presentation",
+      "Library",
+      "Validation",
+      "Not planned"
+    ],
+    "EDUCATIONAL_VALIDATION.md": [
+      "Design",
+      "What to measure",
+      "What would count as a result",
+      "What would NOT count",
+      "Where the result goes"
+    ],
+    "STUDENT_GUIDE.md": [
+      "Getting it running",
+      "Your first five minutes",
+      "Reading a result",
+      "If something goes wrong",
+      "What the numbers are"
+    ],
+    "EXERCISES.md": [
+      "Reading one design",
+      "Changes that do not do what they look like",
+      "Finding the lever",
+      "Requirements",
+      "Defending a choice",
+      "Marking"
+    ]
+  },
+  "public_modes": [
+    "Quick Start",
+    "Education Mode",
+    "Challenge Mode",
+    "Research Mode",
+    "Demo Mode",
+    "Validation Mode"
+  ],
+  "application_keys_used": [
+    "drone",
+    "robot",
+    "industrial_vision",
+    "llm_service",
+    "mobile_ai"
+  ],
+  "metric_names_used": [
+    "Latency (ms)",
+    "Pipeline capacity (inf/s)",
+    "Delivered throughput (inf/s)",
+    "System power (W)",
+    "Energy per inference (mJ)",
+    "Total silicon (mm2)",
+    "System cost (USD)",
+    "Power density (W/mm2)"
+  ],
+  "documented_features": [
+    "Reason Breakdown",
+    "Measured Bar Charts",
+    "Architecture Balance",
+    "Design Review",
+    "What-if",
+    "Lessons",
+    "Challenges",
+    "Workspace"
+  ],
+  "informational_only_features": {
+    "Host connection": [
+      "on_board",
+      "usb3",
+      "pcie_gen4",
+      "pcie_gen5",
+      "ethernet",
+      "ucie"
+    ]
+  },
+  "retired_terms": [
+    "ships",
+    "execution latency",
+    "job latency",
+    "inference latency",
+    "max throughput",
+    "actual throughput",
+    "Architecture Fingerprint"
+  ],
+  "unquantified_adjectives": [
+    "better",
+    "worse",
+    "fast",
+    "slow",
+    "faster",
+    "slower",
+    "efficient",
+    "optimal",
+    "good",
+    "bad"
+  ],
+  "validation_categories": [
+    "Independent arithmetic checks",
+    "Golden scenarios",
+    "Regression snapshots",
+    "Corner cases",
+    "Differential checks",
+    "Mutation testing",
+    "User-answer availability checks",
+    "Answer-quality checks",
+    "Logical consistency cases",
+    "Question clarity checks",
+    "Consistency checks",
+    "Output-stability checks",
+    "Reproducibility checks",
+    "Language and terminology checks",
+    "Documentation audit"
+  ],
+  "not_established": [
+    "Measured hardware accuracy",
+    "Educational effectiveness",
+    "Independent external validation",
+    "Commercial product equivalence"
+  ]
+}

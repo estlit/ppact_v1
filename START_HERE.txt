@@ -1,0 +1,88 @@
+================================================================================
+ AI 반도체 기술기획 - PPACT Simulator
+ Semiconductor School
+================================================================================
+
+ HOW TO RUN
+ ----------
+   Pick the file that matches where you are working. Both show the same menu.
+
+   JUPYTER NOTEBOOK
+       %run run_jupyter.py
+
+   GOOGLE COLAB
+       %run run_colab.py
+
+   A menu appears. Pick a number. Run the cell again for another task.
+
+
+ COLAB: GETTING THE FILES THERE FIRST
+ ------------------------------------
+   A Colab runtime starts empty. run_colab.py looks in three places, in order:
+
+     1. the working directory, extracting PPACT_Simulator.zip if it is there
+     2. Google Drive at MyDrive/PPACT_Simulator.zip, if Drive is mounted
+     3. an upload prompt
+
+   To use Drive, mount it in the cell before:
+
+       from google.colab import drive
+       drive.mount("/content/drive")
+
+
+ IF YOU PREFER TYPING COMMANDS
+ -----------------------------
+   The menu is a convenience, not a wall. After either launcher runs, the
+   whole API is in the notebook namespace:
+
+       list_applications()
+       run_application("drone")
+       run_application("automotive")     HBM fails on qualification
+       run_application("ondevice_llm")   90% of the energy is memory
+       sweep("drone")                    336 combinations, ranked
+       set_figure_scale(0.5)             smaller charts
+
+
+ WHAT YOU NEED
+ -------------
+   Python 3.9 or newer, with numpy and matplotlib:
+
+       pip install numpy matplotlib
+
+   graphviz is optional. Without it the block diagram is drawn with
+   matplotlib instead, so nothing breaks.
+
+
+ WHAT YOU GET
+ ------------
+   Text report in the window, plus PNG charts written into this folder:
+
+       system_bars.png     absolute values against the product budgets
+       system_spider.png   normalized PPACT, survivors only
+
+
+ FOLDER LAYOUT  (keep it exactly like this)
+ ------------------------------------------
+   PPACT_Simulator/
+      START_HERE.txt      this file
+      README.md           full documentation
+      run_jupyter.py      <- run this in Jupyter
+      run_colab.py        <- run this in Colab
+      ppact/              the package (menu included)
+         __init__.py
+         application.py   applications and product budgets
+         compute.py       accelerators
+         cpu.py           host processors
+         memory.py        DRAM technologies
+         system.py        roofline, constraint gate, scoring
+         ...
+
+   The launchers do not depend on the working directory. Each one locates the
+   package from its own position, rebuilds ppact/ if the archive was extracted
+   flat, unpacks PPACT_Simulator.zip if that is all it finds, and stops with a
+   clear message if an out-of-date copy is in the way.
+
+================================================================================
+ Author: Roger Kim
+ Copyright (c) 2026 Roger Kim & EdgeChipLab
+================================================================================

@@ -1,0 +1,46 @@
+==============================================================================
+ PPACT STUDIO - VALIDATION REPORT
+==============================================================================
+  product            v1.0
+  engine             4.19.0
+  generated          2026-08-09 11:04:54Z
+
+  source digest      120 entries
+  coefficient digest 26 entries
+  evidence package hashe4490f479158b257c819c9309e662a4563fd5df27467358dd91fe186b82fabbd
+
+  VALIDATION CATEGORIES
+    Independent arithmetic checks         tests_independent.py        present
+    Golden scenarios                      tests_scenarios.py          present
+    Regression snapshots                  visual_baseline.json        present
+    Corner cases                          tests_corner.py             present
+    Differential checks                   tests_differential.py       present
+    Mutation testing                      tests_mutation.py           present
+    User-answer availability checks       tests_user_validation.py    present
+    Answer-quality checks                 tests_user_validation.py    present
+    Consistency checks                    tests_user_validation.py    present
+    Logical consistency cases             tests_logical_consistency.pypresent
+    Question clarity checks               tests_questions.py          present
+    Output-stability checks               tests_user_validation.py    present
+    Reproducibility checks                certify.py                  present
+    Language and terminology checks       tests_language.py           present
+    Documentation audit                   tests_docs.py               present
+
+  CHECK COUNTS
+    Run each suite to obtain its current count. They are not
+    recorded here as fixed numbers for the same reason they are
+    not recorded in the README: a number written down is a
+    number that goes stale without anybody noticing.
+
+  NOT ESTABLISHED
+    Measured hardware accuracy
+      vendor figures only; no measured hardware. Internal work cannot raise this.
+    Educational effectiveness
+      needs the same people with and without the tool, and a control.
+    Independent external validation
+      needs a predictor who does not run the engine.
+    Commercial product equivalence
+      the Studio does not model commercial products and cannot be checked as though it did.
+
+  A report listing only what passed would be an advertisement.
+==============================================================================

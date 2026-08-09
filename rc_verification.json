@@ -1,0 +1,138 @@
+{
+  "status": "FINAL",
+  "engine_version": "4.19.0",
+  "suite_manifest_digest": "aa8d5c1ba4ea1f461788d16f4541b2fedb4de488db407e5c61182a87e94f2945",
+  "test_registry_version": "1.0",
+  "engine_source_digest": "0adbd826565b9929d11c714360fb32e0f6a08d66e8ef7495f41c0135cd73edbf",
+  "governance_runner_digest": "ff554139c65b6d447c9948b4a35b66026423a7b5ed451bdb03496389f02e49cf",
+  "contract_registry_digest": "8f6897ea61ce0ad9593037a65a651f2cebe8e563d974d18d59d5be530dff512c",
+  "runner_digest": "d3b5007c735160d620a0156cded59c2c3ae1a7ae57ce3e545947b98e4290e43f",
+  "started_at": "2026-08-09T10:59:34Z",
+  "ran_at": "2026-08-09T11:01:36Z",
+  "quick": false,
+  "results": {
+    "governance": {
+      "status": "PASS",
+      "summary": "",
+      "seconds": 0.5
+    },
+    "model": {
+      "status": "PASS",
+      "summary": "5128 / 5128 checks passed",
+      "seconds": 8.0
+    },
+    "freeze": {
+      "status": "PASS",
+      "summary": "6218 / 6218 checks",
+      "seconds": 0.8
+    },
+    "documentation": {
+      "status": "PASS",
+      "summary": "300 / 300 checks",
+      "seconds": 0.6
+    },
+    "user and answer": {
+      "status": "PASS",
+      "summary": "666 / 666 checks across 10 scenarios",
+      "seconds": 0.7
+    },
+    "logical consistency": {
+      "status": "PASS",
+      "summary": "21 / 21 logical consistency cases passed",
+      "seconds": 0.6
+    },
+    "review contract": {
+      "status": "PASS",
+      "summary": "",
+      "seconds": 6.1
+    },
+    "menu paths": {
+      "status": "PASS",
+      "summary": "115 / 115 checks",
+      "seconds": 6.7
+    },
+    "workflow": {
+      "status": "PASS",
+      "summary": "388 / 388 checks",
+      "seconds": 40.2
+    },
+    "streamlit": {
+      "status": "PASS",
+      "summary": "3419 / 3419 checks",
+      "seconds": 50.7
+    },
+    "question clarity": {
+      "status": "PASS",
+      "summary": "972 / 972 checks",
+      "seconds": 0.7
+    },
+    "language": {
+      "status": "PASS",
+      "summary": "378 / 378 checks",
+      "seconds": 1.2
+    },
+    "library validation": {
+      "status": "PASS",
+      "summary": "91 / 91 checks",
+      "seconds": 0.5
+    },
+    "independent arithmetic": {
+      "status": "PASS",
+      "summary": "156 / 156 independent checks passed",
+      "seconds": 0.6
+    },
+    "dual accelerator": {
+      "status": "PASS",
+      "summary": "212 / 212 checks passed",
+      "seconds": 0.6
+    },
+    "corner cases": {
+      "status": "PASS",
+      "summary": "93 / 93 checks passed",
+      "seconds": 0.7
+    },
+    "scenarios": {
+      "status": "PASS",
+      "summary": "enforced checks     31/31",
+      "seconds": 0.6
+    },
+    "memory": {
+      "status": "PASS",
+      "summary": "128 / 128 checks passed",
+      "seconds": 0.6
+    },
+    "differential": {
+      "status": "PASS",
+      "summary": "58 / 58 checks passed",
+      "seconds": 0.6
+    },
+    "holdout": {
+      "status": "PASS",
+      "summary": "",
+      "seconds": 0.6
+    },
+    "quick start example": {
+      "status": "PASS"
+    },
+    "mutation": {
+      "status": "PASS",
+      "child_ending": "not run - existing evidence matches this build",
+      "evidence_verdict": "PASS",
+      "mutation_evidence_path": "mutation_checkpoint.json",
+      "run_id": "c4ee02ece35d4639",
+      "registered": 162,
+      "executed": 162,
+      "survived": 0,
+      "critical": 153,
+      "chain_digest": "c3de3de9ee0d6db1",
+      "summary": "PASS - 162 mutants, 0 survived"
+    },
+    "governance (full)": {
+      "status": "FAIL",
+      "summary": "",
+      "seconds": 0.6
+    }
+  },
+  "completed_at": "2026-08-09T11:01:36Z",
+  "note": "An entry absent from this record means the suite was not run. It never means the suite passed."
+}

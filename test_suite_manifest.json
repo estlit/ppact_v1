@@ -1,0 +1,355 @@
+{
+  "suite_manifest_digest": "a496a4aae1ef3ff42ee24977844d15db88e6068610be865de84848b17b136cb8",
+  "registry_version": "1.0",
+  "steps": [
+    {
+      "suite_id": "model",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_model.py",
+      "required_for_release": true,
+      "execution_order": 10,
+      "methods": [
+        "UNIT_BEHAVIOUR",
+        "STATIC_STRUCTURE",
+        "INTEGRATION"
+      ],
+      "positive_control_ids": [
+        "mutation suite"
+      ],
+      "discriminating_power_established": true,
+      "status": "PROVISIONAL",
+      "file_digest": "99a82bafd0dbf3277832ec55b8bedb23"
+    },
+    {
+      "suite_id": "freeze",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_freeze.py",
+      "required_for_release": true,
+      "execution_order": 20,
+      "methods": [
+        "UNIT_BEHAVIOUR",
+        "STATIC_STRUCTURE"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "5f91d72bf00a196162006e486163a3bb"
+    },
+    {
+      "suite_id": "documentation",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_docs.py",
+      "required_for_release": true,
+      "execution_order": 30,
+      "methods": [
+        "STATIC_STRUCTURE",
+        "INTEGRATION"
+      ],
+      "positive_control_ids": [
+        "docs_* mutations"
+      ],
+      "discriminating_power_established": true,
+      "status": "PROVISIONAL",
+      "file_digest": "ab135e7e5094e1fb91490cae63165ea9"
+    },
+    {
+      "suite_id": "user and answer",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_user_validation.py",
+      "required_for_release": true,
+      "execution_order": 40,
+      "methods": [
+        "INTEGRATION",
+        "OUTPUT_CONTRACT"
+      ],
+      "positive_control_ids": [
+        "consistency detector control"
+      ],
+      "discriminating_power_established": true,
+      "status": "PROVISIONAL",
+      "file_digest": "aced70c66715b7633b82136e9addc7ce"
+    },
+    {
+      "suite_id": "logical consistency",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_logical_consistency.py",
+      "required_for_release": true,
+      "execution_order": 50,
+      "methods": [
+        "INTEGRATION",
+        "OUTPUT_CONTRACT"
+      ],
+      "positive_control_ids": [
+        "LC01",
+        "LC02",
+        "LC03",
+        "LC04",
+        "LC05",
+        "LC06",
+        "LC07",
+        "LC08",
+        "LC09",
+        "LC10",
+        "LC11",
+        "LC12",
+        "LC13",
+        "LC14",
+        "LC15",
+        "LC16",
+        "LC17",
+        "LC18",
+        "LC19",
+        "LC20",
+        "LC21"
+      ],
+      "discriminating_power_established": true,
+      "status": "PROVISIONAL",
+      "file_digest": "30d269428da561428793a095d5b4661c"
+    },
+    {
+      "suite_id": "review contract",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_review_contract.py --enforce",
+      "required_for_release": true,
+      "execution_order": 60,
+      "methods": [
+        "STATIC_STRUCTURE",
+        "END_TO_END",
+        "OUTPUT_CONTRACT"
+      ],
+      "positive_control_ids": [
+        "R11 controls"
+      ],
+      "discriminating_power_established": true,
+      "status": "PROVISIONAL",
+      "file_digest": "b89a94c3540595ac754cc5c9b80cfaa5"
+    },
+    {
+      "suite_id": "menu paths",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_menu_paths.py",
+      "required_for_release": true,
+      "execution_order": 70,
+      "methods": [
+        "END_TO_END"
+      ],
+      "positive_control_ids": [
+        "local-import shadowing control"
+      ],
+      "discriminating_power_established": true,
+      "status": "UPDATE_REQUIRED",
+      "file_digest": "3c95019515a457ea60303ae184630154"
+    },
+    {
+      "suite_id": "question clarity",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_questions.py",
+      "required_for_release": true,
+      "execution_order": 80,
+      "methods": [
+        "STATIC_STRUCTURE",
+        "UNIT_BEHAVIOUR"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "deb6b246cd4d6889fd42ca5503738d36"
+    },
+    {
+      "suite_id": "language",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_language.py",
+      "required_for_release": true,
+      "execution_order": 90,
+      "methods": [
+        "STATIC_STRUCTURE"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "54ccb7072c2c9511c491d583e07641ba"
+    },
+    {
+      "suite_id": "library validation",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_library_validation.py",
+      "required_for_release": true,
+      "execution_order": 100,
+      "methods": [
+        "STATIC_STRUCTURE"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "UPDATE_REQUIRED",
+      "file_digest": "ebb2cb38c9d3304cdf04c6f113b9f8f8"
+    },
+    {
+      "suite_id": "independent arithmetic",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_independent.py",
+      "required_for_release": true,
+      "execution_order": 110,
+      "methods": [
+        "UNIT_BEHAVIOUR"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "79dd9562b4f9ce65f3347966f685f6ee"
+    },
+    {
+      "suite_id": "dual accelerator",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_dual.py",
+      "required_for_release": true,
+      "execution_order": 120,
+      "methods": [
+        "UNIT_BEHAVIOUR"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "353e9e7f3b55a1584bf36345ae2b40bd"
+    },
+    {
+      "suite_id": "corner cases",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_corner.py",
+      "required_for_release": true,
+      "execution_order": 130,
+      "methods": [
+        "UNIT_BEHAVIOUR"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "c3d85f49f948719dd27aa291e20803b7"
+    },
+    {
+      "suite_id": "scenarios",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_scenarios.py",
+      "required_for_release": true,
+      "execution_order": 140,
+      "methods": [
+        "UNIT_BEHAVIOUR"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "f2d55e3c2843ff713227986c236a8870"
+    },
+    {
+      "suite_id": "memory",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_memory.py",
+      "required_for_release": true,
+      "execution_order": 150,
+      "methods": [
+        "UNIT_BEHAVIOUR"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "bf6f68852102a8d2f5203134f9b027d7"
+    },
+    {
+      "suite_id": "differential",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_differential.py",
+      "required_for_release": true,
+      "execution_order": 160,
+      "methods": [
+        "UNIT_BEHAVIOUR"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "0775dd7c4cbb0880386755719d698213"
+    },
+    {
+      "suite_id": "holdout",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_holdout.py",
+      "required_for_release": true,
+      "execution_order": 170,
+      "methods": [
+        "UNIT_BEHAVIOUR"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "d6d891cbaca57141f626e654f92b87f6"
+    },
+    {
+      "suite_id": "mutation",
+      "kind": "TEST_SUITE",
+      "entry_command": "tests_mutation.py",
+      "required_for_release": false,
+      "execution_order": 180,
+      "methods": [
+        "MUTATION"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": true,
+      "status": "PROVISIONAL",
+      "file_digest": "caea3e0f8a1a28841ab834f1d1d1d395"
+    },
+    {
+      "suite_id": "quick start example",
+      "kind": "RELEASE_STEP",
+      "entry_command": "verify_release.py (inline step)",
+      "required_for_release": true,
+      "execution_order": 190,
+      "methods": [
+        "END_TO_END"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "ef1e49d043b9525665caa76855f672d1"
+    },
+    {
+      "suite_id": "certification",
+      "kind": "REPRODUCTION_STEP",
+      "entry_command": "certify.py",
+      "required_for_release": true,
+      "execution_order": 200,
+      "methods": [
+        "REPRODUCTION"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "b600514574e6b62c289a4f7ea652bcde"
+    },
+    {
+      "suite_id": "distribution integrity",
+      "kind": "REPRODUCTION_STEP",
+      "entry_command": "check_release.py",
+      "required_for_release": true,
+      "execution_order": 210,
+      "methods": [
+        "STATIC_STRUCTURE"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": "9a75e9c4e366a9d77a28c334307a9950"
+    },
+    {
+      "suite_id": "suite review",
+      "kind": "MANUAL_REVIEW",
+      "entry_command": "(human, per release)",
+      "required_for_release": true,
+      "execution_order": 220,
+      "methods": [
+        "STATIC_STRUCTURE"
+      ],
+      "positive_control_ids": [],
+      "discriminating_power_established": false,
+      "status": "PROVISIONAL",
+      "file_digest": ""
+    }
+  ]
+}

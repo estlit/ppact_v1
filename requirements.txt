@@ -1,0 +1,29 @@
+# PPACT Studio - Streamlit deployment
+#
+# PINNED, not floating.
+#
+# A range resolves to whatever the index holds on the day of the build,
+# so two deployments of the same commit can differ - which is what this
+# project's reproducibility record exists to rule out. The figures come
+# from the engine and not from these libraries, but a renderer that
+# changes under the app is still a change nobody recorded.
+#
+# VERIFIED ON:
+#
+#     Python      3.12.3
+#     Linux       x86_64
+#
+# The hosted Python version is the one thing about a deployment that has
+# not been observed, so runtime.txt pins it to the same major-minor line.
+# If the build fails, it fails at install time with a version conflict
+# printed in the log - which is a better outcome than a silent
+# substitution nobody records.
+#
+# playwright is NOT here. It captured screenshots during review and no
+# suite imports it; adding it would install a browser into every
+# deployment for nothing. IPython, PIL, google.colab and graphviz are
+# imported inside try blocks and the app runs without them.
+
+streamlit==1.61.1
+matplotlib==3.10.8
+numpy==2.4.4
