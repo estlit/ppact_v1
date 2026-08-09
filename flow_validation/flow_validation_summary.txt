@@ -1,0 +1,21 @@
+SYSTEM FLOW VALIDATION SUMMARY
+
+Total cases                  100
+2-stage-single               20
+3-stage-dual                 25
+4-stage-single               25
+4-stage-dual                 30
+
+Text PASS                    100
+PNG PASS                     100
+Contract failures            0
+Visual defects (measured)    0
+Contact sheets               5
+
+Manual review status         NOT REVIEWED
+
+NOT ESTABLISHED
+  Whether the diagram is clear to a reader.
+  Title overlap, truncation and missing arrowheads are judged by
+  eye; the contact sheets exist for that and nobody has looked
+  at them yet.
